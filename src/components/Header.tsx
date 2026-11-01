@@ -5,11 +5,11 @@ import { useState } from "react";
 import Link from "next/link";
 
 const navigation = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Services", href: "#services" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/#home" },
+  { name: "About", href: "/about-us" },
+  { name: "Services", href: "/#services" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -21,13 +21,13 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
         {/* Logo */}
-        <Link href="#home" className="flex items-center gap-3">
+        <Link href="/#home" className="flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-600 text-xl font-black text-white">
             N
           </div>
 
           <div>
-            <h1 className="text-xl font-extrabold">
+            <h1 className="text-xl font-extrabold text-black">
               Nexa<span className="text-emerald-600">Tech</span>
             </h1>
             <p className="text-[10px] uppercase tracking-widest text-slate-500">

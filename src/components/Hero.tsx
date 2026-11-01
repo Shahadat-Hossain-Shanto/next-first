@@ -45,6 +45,9 @@ export default function Hero() {
             >
               Explore Services
             </Link>
+            <Link href="/about-us" className="rounded-xl border border-slate-300 bg-white px-7 py-4 text-sm font-bold text-slate-800 transition hover:border-emerald-600 hover:text-emerald-600">
+                About Us →
+            </Link>
           </div>
 
           <div className="mt-14 flex flex-wrap gap-10 border-t border-slate-200 pt-8">
